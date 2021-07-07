@@ -10,6 +10,8 @@ charting_library
 charting_library  
 datafeeds  
 
+tradingview [Advanced Real-Time Chart Widget](https://www.tradingview.com/widget/advanced-chart/)
+
 ## vuejs
 
 > * ../../public/charting_library in ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/@vue/cli-plugin-babel/node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/TVChartContainer.vue?vue&type=script&lang=js&
