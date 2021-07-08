@@ -25,3 +25,19 @@ import { widget } from '../../public/charting_library/charting_library.min.js';
  const tvWidget = new widget(widgetOptions);
     this.tvWidget = tvWidget;
 ```
+
+[技術分析圖表](https://tw.tradingview.com/HTML5-stock-forex-bitcoin-charting-library/?feature=technical-analysis-charts) `charting_library` & `datafeeds` 取自
+alokshakya / BitcoinEtheriumLivePricing [src/assets](https://github.com/alokshakya/BitcoinEtheriumLivePricing/tree/master/src/assets)
+
+> Cannot read property 'UDFCompatibleDatafeed' of undefined in react-javascript [#92](https://github.com/tradingview/charting-library-examples/issues/92)
+
+public/index.html
+
+```html
+<script src="<%= BASE_URL %>datafeeds/udf/dist/polyfills.js"></script>
+<script src="<%= BASE_URL %>datafeeds/udf/dist/bundle.js"></script>
+```
+
+datafeeds包內需要有檔案
+public\datafeeds\udf\dist\polyfills.js
+public\datafeeds\udf\dist\bundle.js
